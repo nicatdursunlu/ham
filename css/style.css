@@ -473,9 +473,9 @@
 /* people say section  */
 
 .people-say-section {
+  background: url("../images/background/section-3.jpg");
   margin-top: 85px;
   padding-bottom: 50px;
-  background: url("../images/background/section-3.jpg");
 }
 
 .people-say {
@@ -502,7 +502,7 @@
 
 .slider-img-active {
   transform: translateY(-15px) !important;
-  border-color: #18cfab;
+  border-color: var(--primCol);
 }
 
 .people-say-content {
@@ -526,17 +526,20 @@
 }
 
 .people-say-content div h4 {
-  color: #18cfab;
+  color: var(--primCol);
   font-size: 16px;
   text-align: center;
   margin-bottom: 10px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .slider-for-image {
+  width: 140px;
+  height: 140px;
   margin-bottom: 50px;
   border-radius: 50%;
-  border: 3px solid #18cfab;
+  border: 3px solid var(--primCol);
   box-shadow: -1px 1px 4px 12px #114c4b;
 }
 
@@ -547,7 +550,7 @@
 }
 
 .people-say-content span {
-  color: #18cfab;
+  color: var(--primCol);
   font-size: 50px;
 }
 
