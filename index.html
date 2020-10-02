@@ -1,780 +1,938 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Ham</title>
-    <link rel="stylesheet" href="css/Ham.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat: 100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HAM</title>
+
     <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-            integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-            crossorigin="anonymous"
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-</head>
-
-<body>
-
-
-<header class="header" style="background-image: url('img/Sections_background/section-1.jpg')">
-    <nav class="container">
-        <div class="navigation">
-            <div class="nav-logo">
-                <div class="hexagon1"></div>
-                <div class="hexagon2">
-                    <a href="#" class="h-icon">H</a>
-                </div>
-                <div class="hexagon3"></div>
-                <div class="logoname">
-                    <a href="#" class="ham-logo">the<span class="green" style="font-weight: 800">Ham</span></a>
-                </div>
+  <body>
+    <!-- header section  -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="container nav">
+          <div class="nav-logo">
+            <!-- <h1 class="hexagon">H</h1> -->
+            <div class="hexa-logo">
+              <h1 class="hexagon">H</h1>
             </div>
-
-            <nav class="navigation-links">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Skills</a>
-                <a href="#">Service</a>
-                <a href="#">Work</a>
-                <a href="#">Testimonial</a>
-                <a href="#">Blog</a>
-                <a href="#">Team</a>
-                <a href="#">Contact</a>
-                <a href="#" class="search-icon"><i class="fas fa-search"></i></a>
-            </nav>
+            <p class="nav-logo-text">the<span class="green-text">Ham</span></p>
+          </div>
+          <div class="nav-menu">
+            <a href="#" class="nav-menu-link">Home</a>
+            <a href="#" class="nav-menu-link">About</a>
+            <a href="#" class="nav-menu-link">Skills</a>
+            <a href="#" class="nav-menu-link">Service</a>
+            <a href="#" class="nav-menu-link">Work</a>
+            <a href="#" class="nav-menu-link">Testimonial</a>
+            <a href="#" class="nav-menu-link">Blog</a>
+            <a href="#" class="nav-menu-link">Team</a>
+            <a href="#" class="nav-menu-link">Contact</a>
+            <a href="#" class="nav-menu-link"><i class="fas fa-search"></i></a>
+          </div>
         </div>
-    </nav>
+      </nav>
 
-    <main class="main">
-        <div class="main-content">
-            <h3 class="h3-text">
-                The ham is <span class="green">wordpress theme</span>
-            </h3>
-            <h1 class="h1-text">
-                We are creative
-            </h1>
-            <h4 class="h4-text">
-                Just Buy And Enjoy These Awesome Features
-            </h4>
-            <div class="buttons">
-                <a href="#" class="link link-explore">Explore now</a>
-                <a href="#" class="link link-purchase">Purchase now</a>
+      <div class="container creative">
+        <div class="creative-header">
+          <h2>The Ham is <span class="green-text">Wordpress Theme</span></h2>
+          <h1>We are creative</h1>
+          <p>Just Buy and Enjoy These Awesome Features</p>
+        </div>
+        <div class="header-buttons">
+          <button class="button border-top green-bg MR-20">Explore now</button>
+          <button class="button border-top">Purchase now</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- options section  -->
+    <section class="options-section">
+      <div class="row options">
+        <div class="option-item blue-bg green-border">
+          <img src="./images/Options/Forma 1@1X.png" alt="" />
+          <h3 class="green-text">Different theme option</h3>
+        </div>
+        <div class="option-item green-bg white-border">
+          <img src="./images/Options/Forma 1@1X (1).png" alt="" />
+          <h3 class="white-text">Fully customizable</h3>
+        </div>
+        <div class="option-item blue-bg green-border">
+          <img src="./images/Options/Forma 1@1X (2).png" alt="" />
+          <h3 class="green-text">Unlimited support</h3>
+        </div>
+        <div class="option-item green-bg white-border">
+          <img src="./images/Options/Forma 1@1X (3).png" alt="" />
+          <h3 class="white-text">Responsive all device</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- our-services section  -->
+    <section class="our-services">
+      <div class="container header-text">
+        <p class="header-title">Our services</p>
+        <img src="./images/centerline.png" alt="" />
+      </div>
+      <div class="container service">
+        <ul class="design-options" id="design-options">
+          <li class="design-toggle">Web Design</li>
+          <li>Graphic Design</li>
+          <li>Online Support</li>
+          <li>App Design</li>
+          <li>Online Marketing</li>
+          <li>Seo service</li>
+        </ul>
+        <div class="design-text">
+          <img src="./images/services/Layer 9@1X.png" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+            mollitia vero quisquam nesciunt eligendi doloribus nemo eum maxime
+            maiores voluptates consequuntur, saepe dolor incidunt. Molestias
+            vero ipsum voluptate accusantium, maiores, placeat maxime mollitia
+            quasi rem sequi totam commodi expedita velit. Deleniti quisquam ea
+            quae alias nam placeat, asperiores ipsam nisi tenetur nulla
+            excepturi totam quidem ad ullam, qui fugit impedit.
+          </p>
+        </div>
+        <div class="design-text hidden">
+          <img src="./images/services/service.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+            mollitia vero quisquam nesciunt eligendi doloribus nemo eum maxime
+            maiores voluptates consequuntur, saepe dolor incidunt. Molestias
+            vero ipsum voluptate accusantium, maiores, placeat maxime mollitia
+            quasi rem sequi totam commodi expedita velit. Deleniti quisquam ea
+            quae alias nam placeat, asperiores ipsam nisi tenetur nulla
+            excepturi totam quidem ad ullam, qui fugit impedit.
+          </p>
+        </div>
+        <div class="design-text hidden">
+          <img src="./images/services/service2.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+            mollitia vero quisquam nesciunt eligendi doloribus nemo eum maxime
+            maiores voluptates consequuntur, saepe dolor incidunt. Molestias
+            vero ipsum voluptate accusantium, maiores, placeat maxime mollitia
+            quasi rem sequi totam commodi expedita velit. Deleniti quisquam ea
+            quae alias nam placeat, asperiores ipsam nisi tenetur nulla
+            excepturi totam quidem ad ullam, qui fugit impedit.
+          </p>
+        </div>
+        <div class="design-text hidden">
+          <img src="./images/services/service3.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+            mollitia vero quisquam nesciunt eligendi doloribus nemo eum maxime
+            maiores voluptates consequuntur, saepe dolor incidunt. Molestias
+            vero ipsum voluptate accusantium, maiores, placeat maxime mollitia
+            quasi rem sequi totam commodi expedita velit. Deleniti quisquam ea
+            quae alias nam placeat, asperiores ipsam nisi tenetur nulla
+            excepturi totam quidem ad ullam, qui fugit impedit.
+          </p>
+        </div>
+        <div class="design-text hidden">
+          <img src="./images/services/service4.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+            mollitia vero quisquam nesciunt eligendi doloribus nemo eum maxime
+            maiores voluptates consequuntur, saepe dolor incidunt. Molestias
+            vero ipsum voluptate accusantium, maiores, placeat maxime mollitia
+            quasi rem sequi totam commodi expedita velit. Deleniti quisquam ea
+            quae alias nam placeat, asperiores ipsam nisi tenetur nulla
+            excepturi totam quidem ad ullam, qui fugit impedit.
+          </p>
+        </div>
+        <div class="design-text hidden">
+          <img src="./images/services/service5.jpg" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro
+            mollitia vero quisquam nesciunt eligendi doloribus nemo eum maxime
+            maiores voluptates consequuntur, saepe dolor incidunt. Molestias
+            vero ipsum voluptate accusantium, maiores, placeat maxime mollitia
+            quasi rem sequi totam commodi expedita velit. Deleniti quisquam ea
+            quae alias nam placeat, asperiores ipsam nisi tenetur nulla
+            excepturi totam quidem ad ullam, qui fugit impedit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- purchase section  -->
+    <section class="purchase-section">
+      <div class="purchase">
+        <h2 class="purchase-title green-text">
+          Everything is ready. just buy and install now
+        </h2>
+        <p class="purchase-text">
+          Smooth reliable, responsive ready, perfect portfolio, unique blog
+          layout and many many options for you
+        </p>
+        <button class="button green-bg border-top purchase-btn">
+          Purchase now
+        </button>
+      </div>
+    </section>
+
+    <!-- our amazing work section -->
+    <section class="our-amazing-work">
+      <div class="container amazing-work">
+        <div class="header-text">
+          <p class="header-title">Our Amazing Work</p>
+          <img src="images/centerline.png" alt="" />
+        </div>
+        <ul class="amazing-work-options">
+          <li class="options-style">All</li>
+          <li dataKey="graphic-design">Graphic Design</li>
+          <li class="web-design">Web Design</li>
+          <li class="landing-page">Landing Page</li>
+          <li class="wordpress">Wordpress</li>
+        </ul>
+
+        <div class="amazing-work-images">
+          <div class="amazing-work-images-item web">
+            <img src="images/web design/web-design1.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Web Design</p>
             </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/web design/web-design2.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Web Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/web design/web-design3.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Web Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/graphic design/graphic-design1.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Graphic Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/graphic design/graphic-design2.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Graphic Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/landing page/landing-page1.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Landing Page</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/landing page/landing-page2.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Landing Page</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/landing page/landing-page3.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Landing Page</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/graphic design/graphic-design3.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Graphic Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/graphic design/graphic-design4.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Graphic Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/graphic design/graphic-design5.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Graphic Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/graphic design/graphic-design6.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Graphic Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/graphic design/graphic-design7.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Graphic Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/graphic design/graphic-design8.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Graphic Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/graphic design/graphic-design9.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Graphic Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/graphic design/graphic-design10.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Graphic Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/graphic design/graphic-design11.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Graphic Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/graphic design/graphic-design12.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Graphic Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/web design/web-design4.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Web Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/web design/web-design5.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Web Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/web design/web-design6.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Web Design</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/web design/web-design7.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Web Design</p>
+            </div>
+          </div>
+
+          <div class="amazing-work-images-item web">
+            <img src="images/wordpress/wordpress1.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Wordpress</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/wordpress/wordpress2.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Wordpress</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/wordpress/wordpress3.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Wordpress</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/wordpress/wordpress4.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Wordpress</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/wordpress/wordpress5.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Wordpress</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/wordpress/wordpress6.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Wordpress</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/wordpress/wordpress7.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Wordpress</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/wordpress/wordpress8.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Wordpress</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/wordpress/wordpress9.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Wordpress</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/wordpress/wordpress10.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Wordpress</p>
+            </div>
+          </div>
+
+          <div class="amazing-work-images-item web">
+            <img src="images/landing page/landing-page4.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Landing Page</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/landing page/landing-page5.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Landing Page</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/landing page/landing-page6.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Landing Page</p>
+            </div>
+          </div>
+          <div class="amazing-work-images-item web">
+            <img src="images/landing page/landing-page7.jpg" alt="" />
+            <div class="image-hover border-top">
+              <div class="image-hover-icons">
+                <i class="fas fa-link"></i>
+                <i class="fas fa-search"></i>
+              </div>
+              <h3 class="green-text">Creative Design</h3>
+              <p>Landing Page</p>
+            </div>
+          </div>
         </div>
-    </main>
+        <button class="button white-text green-bg load-more">
+          <i class="fas fa-plus"></i>
+          <span>Load More</span>
+        </button>
+      </div>
+    </section>
 
-</header>
-
-<section class="first-section">
-    <div class="line-part">
-        <div class="line line-part-1"></div>
-        <div class="line line-part-2"></div>
-        <div class="line line-part-3"></div>
-        <div class="line line-part-4"></div>
-    </div>
-    <div class="square-panel">
-        <div class="paneldesign finger">
-            <img src="img/general/finger.png" class="finger-img">
-            <h3 class="finger-text">Different theme option</h3>
+    <!-- breaking news section  -->
+    <section class="breaking-news-section">
+      <div class="container">
+        <div class="header-text">
+          <p class="header-title">Breaking News</p>
         </div>
-        <div class="paneldesign diamond">
-            <img src="img/general/diamond.png" class="diamond-img">
-            <h3 class="diamond-text">Fully customizable</h3>
+        <div class="breaking-news">
+          <a href="#" class="breaking-news-item">
+            <img src="images/breaking-news/Layer 47@1X.png" alt="" />
+            <div class="breaking-news-date white-text">12 Feb</div>
+            <div class="breaking-news-blog">
+              <h3 class="green-text">Amazing Image Post</h3>
+              <span>By admin</span>
+              <span>2 comments</span>
+            </div>
+          </a>
+          <a href="#" class="breaking-news-item">
+            <img src="images/breaking-news/Layer 50@1X.png" alt="" />
+            <div class="breaking-news-date white-text">12 Feb</div>
+            <div class="breaking-news-blog">
+              <h3 class="green-text">Amazing Image Post</h3>
+              <span>By admin</span>
+              <span>2 comments</span>
+            </div>
+          </a>
+          <a href="#" class="breaking-news-item">
+            <img src="images/breaking-news/Layer 51@1X.png" alt="" />
+            <div class="breaking-news-date white-text">12 Feb</div>
+            <div class="breaking-news-blog">
+              <h3 class="green-text">Amazing Image Post</h3>
+              <span>By admin</span>
+              <span>2 comments</span>
+            </div>
+          </a>
+          <a href="#" class="breaking-news-item">
+            <img src="images/breaking-news/Layer 52@1X.png" alt="" />
+            <div class="breaking-news-date white-text">12 Feb</div>
+            <div class="breaking-news-blog">
+              <h3 class="green-text">Amazing Image Post</h3>
+              <span>By admin</span>
+              <span>2 comments</span>
+            </div>
+          </a>
+          <a href="#" class="breaking-news-item">
+            <img src="images/breaking-news/Layer 53@1X.png" alt="" />
+            <div class="breaking-news-date white-text">12 Feb</div>
+            <div class="breaking-news-blog">
+              <h3 class="green-text">Amazing Image Post</h3>
+              <span>By admin</span>
+              <span>2 comments</span>
+            </div>
+          </a>
+          <a href="#" class="breaking-news-item">
+            <img src="images/breaking-news/Layer 54@1X.png" alt="" />
+            <div class="breaking-news-date white-text">12 Feb</div>
+            <div class="breaking-news-blog">
+              <h3 class="green-text">Amazing Image Post</h3>
+              <span>By admin</span>
+              <span>2 comments</span>
+            </div>
+          </a>
+          <a href="#" class="breaking-news-item">
+            <img src="images/breaking-news/Layer 55@1X.png" alt="" />
+            <div class="breaking-news-date white-text">12 Feb</div>
+            <div class="breaking-news-blog">
+              <h3 class="green-text">Amazing Image Post</h3>
+              <span>By admin</span>
+              <span>2 comments</span>
+            </div>
+          </a>
+          <a href="#" class="breaking-news-item">
+            <img src="images/breaking-news/Layer 56@1X.png" alt="" />
+            <div class="breaking-news-date white-text">12 Feb</div>
+            <div class="breaking-news-blog">
+              <h3 class="green-text">Amazing Image Post</h3>
+              <span>By admin</span>
+              <span>2 comments</span>
+            </div>
+          </a>
         </div>
-        <div class="paneldesign lamp">
-            <img src="img/general/lamp.png" class="lamp-img">
-            <h3 class="lamp-text">Unlimited support</h3>
+      </div>
+    </section>
+
+    <!-- people say section -->
+    <section class="people-say-section">
+      <div class="container people-say">
+        <div class="header-text">
+          <p class="header-title">What people say about theHam</p>
         </div>
-        <div class="paneldesign devices">
-            <img src="img/general/devices.png" class="devices-img">
-            <h3 class="devices-text">Responsive all device</h3>
-        </div>
-    </div>
-</section>
-
-<section class="second-section">
-    <div class="title">
-        <h3 class="title-part">Our Services</h3>
-    </div>
-    <div class="seperator-1">
-        <hr class="hr first-line">
-        <hr class="hr second-line">
-    </div>
-
-    <div class="text-buttons">
-        <div class="text-buttons-width">
-            <ul id="filter-titles">
-                <li  class="filter-title active">Web Design</li>
-                <li  class="filter-title ">Graphic Design</li>
-                <li  class="filter-title">Online Support</li>
-                <li  class="filter-title">App Design</li>
-                <li  class="filter-title">Online Marketing</li>
-                <li  class="filter-title">Seo Service</li>
-            </ul>
-
-            <ul class="project-list">
-                <li class="project-item">
-                    <p class="paragraph"><img class="text-images" src="img/general/text-img.png">
-                    Web design encompasses many different skills and disciplines in the production and maintenance of
-                    websites. The different areas of web design include web graphic design; interface design; authoring,
-                    including standardised code and proprietary software; user experience design; and search engine
-                    optimization. Often many individuals will work in teams covering different aspects of the design
-                    process, although some designers will cover them all.[1] The term "web design" is normally used
-                    to describe the design process relating to the front-end (client side) design of a website
-                    including writing markup.
-                    </p>
-                </li>
-
-                <li class="project-item">
-                    <p class="paragraph"><img class="text-images" src="img/graphic%20design/graphic-design7.jpg">
-                    Graphic design is the process of visual communication and problem-solving through the use of typography,
-                    photography, and illustration. The field is considered a subset of visual communication and communication
-                    design, but sometimes the term "graphic design" is used synonymously. Graphic designers create and combine
-                    symbols, images and text to form visual representations of ideas and messages. They use typography, visual
-                    arts, and page layout techniques to create visual compositions. Common uses of graphic design include
-                    corporate design (logos and branding), editorial design (magazines, newspapers and books).
-                </p>
-                </li>
-
-                <li class="project-item">
-                    <p class="paragraph"><img class="text-images" src="img/wordpress/wordpress7.jpg">
-                    Online help is topic-oriented, procedural or reference information delivered through computer software.
-                    It is a form of user assistance. Most online help is designed to give assistance in the use of a software
-                    application or operating system, but can also be used to present information on a broad range of subjects.
-                    When online help is linked to the state of the application (what the user is doing), it is called
-                    Context-sensitive help. Online help has largely replaced live customer support. Before its availability,
-                    support could only be given through printed documentation (limited), mail (long wait) or telephone (expensive).
-                    When customers troubleshoot their own problems, quite often they can get to a solution by themselves.
-                    </p>
-                </li>
-
-                <li class="project-item">
-                    
-                    <p class="paragraph"><img class="text-images" src="img/graphic%20design/graphic-design8.jpg">
-                    Mobile app development is the act or process by which a mobile app is developed for mobile devices,
-                    such as personal digital assistants, enterprise digital assistants or mobile phones. These applications
-                    can be pre-installed on phones during manufacturing platforms, or delivered as web applications using
-                    server-side or client-side processing (e.g., JavaScript) to provide an "application-like" experience
-                    within a Web browser. Application software developers also must consider a long array of screen sizes,
-                    hardware specifications, and configurations because of intense competition in mobile software
-                    </p>
-                </li>
-                <li class="project-item">
-                    <p class="paragraph"><img class="text-images" src="img/wordpress/wordpress10.jpg">
-                    WordPress (WordPress.org) is a free and open-source content management system (CMS) written in PHP[4] and
-                    paired with a MySQL or MariaDB database. Features include a plugin architecture and a template system,
-                    referred to within WordPress as Themes. WordPress was originally created as a blog-publishing system but
-                    has evolved to support other types of web content including more traditional mailing lists and forums,
-                    media galleries, membership sites, learning management systems (LMS) and online stores. WordPress is used
-                    by more than 60 million websites,[5] including 33.6% of the top 10 million websites as of April 2019.
-                    </p>
-                </li>
-                <li class="project-item">
-                    <p class="paragraph"><img class="text-images" src="img/web%20design/web-design6.jpg">
-                    Search engine optimization (SEO) is the process of increasing the quality and quantity of website traffic
-                    by increasing the visibility of a website or a web page to users of a web search engine.[1] SEO refers
-                    to the improvement of unpaid results (known as "natural" or "organic" results) and excludes direct
-                    traffic/visitors and the purchase of paid placement. SEO may target different kinds of searches,
-                    including image search, video search, academic search,[2] news search, and industry-specific vertical
-                    search engines. Optimizing a website may involve editing its content, adding content, and modifying HTML
-                    and associated coding to both increase its relevance to specific keywords and remove barriers to the
-                    indexing activities of search engines like Google, Yahoo etc.
-                    </p>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<section class="third-section" style="background-image: url('img/Sections_background/section-2.jpg')">
-    <div class="for-opacity">
-        <div class="for-width">
-            <h2 class="h2-text">
-                Everything is ready. Just buy and install now.
-            </h2>
-            <p class="small-paragraph">
-                Smooth reliable, responsive ready, perfect portfolio, unique block layout
-                and many many options for you
+        <div class="slider">
+          <div class="people-say-content">
+            <img src="images/quotes.png" alt="" />
+            <p>
+              Integer dignissim, augue tempus ultricies luctus, quam dui laoreet
+              sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget
+              aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem,
+              non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam
+              facilisis.
             </p>
-            <div class="button">
-                <a href="#" class="link-purchase-now">purchase now</a>
+            <div>
+              <h4>Hasan Ali</h4>
+              <p>UX Designer</p>
             </div>
+            <img
+              src="images/peopleSay/Layer 5@1X.png"
+              alt=""
+              class="slider-fir-image"
+            />
+          </div>
+          <div class="people-say-content">
+            <img src="images/quotes.png" alt="" />
+            <p>
+              Integer dignissim, augue tempus ultricies luctus, quam dui laoreet
+              sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget
+              aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem,
+              non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam
+              facilisis.
+            </p>
+            <div>
+              <h4>Lisa Beckham</h4>
+              <p>Developer</p>
+            </div>
+            <img
+              src="images/peopleSay/Layer 6@1X.png"
+              alt=""
+              class="slider-fir-image"
+            />
+          </div>
+          <div class="people-say-content">
+            <img src="images/quotes.png" alt="" />
+            <p>
+              Integer dignissim, augue tempus ultricies luctus, quam dui laoreet
+              sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget
+              aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem,
+              non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam
+              facilisis.
+            </p>
+            <div>
+              <h4>Kanan Vali</h4>
+              <p>FE Developer</p>
+            </div>
+            <img
+              src="images/peopleSay/Layer 7@1X.png"
+              alt=""
+              class="slider-fir-image"
+            />
+          </div>
+          <div class="people-say-content">
+            <img src="images/quotes.png" alt="" />
+            <p>
+              Integer dignissim, augue tempus ultricies luctus, quam dui laoreet
+              sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget
+              aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem,
+              non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam
+              facilisis.
+            </p>
+            <div>
+              <h4>Jessy O'neal</h4>
+              <p>UX Designer</p>
+            </div>
+            <img
+              src="images/peopleSay/Layer 8@1X.png"
+              alt=""
+              class="slider-fir-image"
+            />
+          </div>
+          <div class="people-say-content">
+            <img src="images/quotes.png" alt="" />
+            <p>
+              Integer dignissim, augue tempus ultricies luctus, quam dui laoreet
+              sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget
+              aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem,
+              non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam
+              facilisis.
+            </p>
+            <div>
+              <h4>Hasan Ali</h4>
+              <p>UX Designer</p>
+            </div>
+            <img
+              class="slider-for-image"
+              src="images\peopleSay\Layer 5@1X.png"
+              alt=""
+            />
+          </div>
+          <div class="people-say-content">
+            <img src="images/quotes.png" alt="" />
+            <p>
+              Integer dignissim, augue tempus ultricies luctus, quam dui laoreet
+              sem, non dictum odio nisi quis massa. Quam dui laoreet sem, non
+              dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam
+              facilisis.
+            </p>
+            <div>
+              <h4>Lisa Beckham</h4>
+              <p>Devoloper</p>
+            </div>
+            <img
+              class="slider-for-image"
+              src="images\peopleSay\Layer 6@1X.png"
+              alt=""
+            />
+          </div>
+          <div class="people-say-content">
+            <img src="images/quotes.png" alt="" />
+            <p>
+              Integer dignissim, augue tempus ultricies luctus, quam dui laoreet
+              sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget
+              aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem,
+              non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam
+              facilisis.
+            </p>
+            <div>
+              <h4>Kana Vali</h4>
+              <p>FE Devoloper</p>
+            </div>
+            <img
+              class="slider-for-image"
+              src="images\peopleSay\Layer 7@1X.png"
+              alt=""
+            />
+          </div>
+          <div class="people-say-content">
+            <img src="images/quotes.png" alt="" />
+            <p>
+              Integer dignissim, augue tempus ultricies luctus, quam dui laoreet
+              sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget
+              aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem,
+              non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam
+              facilisis.
+            </p>
+            <div>
+              <h4>Jessy O'neal</h4>
+              <p>Manager</p>
+            </div>
+            <img
+              class="slider-for-image"
+              src="images\peopleSay\Layer 8@1X.png"
+              alt=""
+            />
+          </div>
         </div>
-    </div>
-</section>
 
-
-<section class="last-section">
-    <div class="title">
-        <h3 class="title-part">Our Amazing Work</h3>
-    </div>
-    <div class="seperator-2">
-        <hr class="hr first-line">
-        <hr class="hr second-line">
-    </div>
-
-    <div class="image-buttons">
-    <ul id="image-titles">
-        <!-- <li class="image-title active">All</li>
-        <li class="image-title">Graphic design</li>
-        <li class="image-title">Web Design</li>
-        <li class="image-title">Landing pages</li>
-        <li class="image-title">Wordpress</li> -->
-
-        <li>
-            <div data-filterby class="image-title active">All</div>
-        </li>
-        <li>
-            <div data-filterby="graphic-design" class="image-title">Graphic design</div>
-        </li>
-        <li>
-            <div data-filterby="web-design" class="image-title">Web Design</div>
-        </li>
-        <li>
-            <div data-filterby="landing-pages" class="image-title">Landing pages</div>
-        </li>
-        <li>
-            <div data-filterby="wordpress" class="image-title">Wordpress</div>
-        </li>
-    </ul>
-    </div>
-
-
-    <div class="projects ">
-
-        <!--            Graphic Design Images            -->
-
-            <div class="image-item graphic-design">
-                <img src="img/graphic%20design/graphic-design1.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
+        <div class="slider-nav">
+          <div>
+            <div class="custom-slide">
+              <img
+                class="slider-img"
+                src="images\peopleSay\Layer 5@1X.png"
+                alt=""
+              />
             </div>
-
-
-            <div class="image-item graphic-design">
-                <img src="img/graphic%20design/graphic-design2.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
+          </div>
+          <div>
+            <div class="custom-slide">
+              <img
+                class="slider-img"
+                src="images\peopleSay\Layer 6@1X.png"
+                alt=""
+              />
             </div>
-
-            <div class="image-item graphic-design">
-                <img src="img/graphic%20design/graphic-design3.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
+          </div>
+          <div>
+            <div class="custom-slide">
+              <img
+                class="slider-img"
+                src="images\peopleSay\Layer 7@1X.png"
+                alt=""
+              />
             </div>
-
-            <div class="image-item graphic-design">
-                <img src="img/graphic%20design/graphic-design4.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
+          </div>
+          <div>
+            <div class="custom-slide">
+              <img
+                class="slider-img"
+                src="images\peopleSay\Layer 8@1X.png"
+                alt=""
+              />
             </div>
-
-            <div class="image-item graphic-design">
-                <img src="img/graphic%20design/graphic-design5.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
+          </div>
+          <div>
+            <div class="custom-slide">
+              <img
+                class="slider-img"
+                src="images\peopleSay\Layer 5@1X.png"
+                alt=""
+              />
             </div>
-
-            <div class="image-item graphic-design">
-                <img src="img/graphic%20design/graphic-design6.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
+          </div>
+          <div>
+            <div class="custom-slide">
+              <img
+                class="slider-img"
+                src="images\peopleSay\Layer 6@1X.png"
+                alt=""
+              />
             </div>
-
-            <div class="image-item graphic-design">
-                <img src="img/graphic%20design/graphic-design7.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
+          </div>
+          <div>
+            <div class="custom-slide">
+              <img
+                class="slider-img"
+                src="images\peopleSay\Layer 7@1X.png"
+                alt=""
+              />
             </div>
-
-            <div class="image-item graphic-design">
-                <img src="img/graphic%20design/graphic-design8.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
+          </div>
+          <div>
+            <div class="custom-slide">
+              <img
+                class="slider-img"
+                src="images\peopleSay\Layer 8@1X.png"
+                alt=""
+              />
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <div class="image-item graphic-design">
-                <img src="img/graphic%20design/graphic-design9.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
-            </div>
-
-            <div class="image-item graphic-design">
-                <img src="img/graphic%20design/graphic-design10.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
-            </div>
-
-            <div class="image-item graphic-design">
-                <img src="img/graphic%20design/graphic-design11.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
-            </div>
-
-            <div class="image-item graphic-design">
-                <img src="img/graphic%20design/graphic-design12.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
-            </div>
-            
-            <!--            Web Design Images             -->
-
-            <div class="image-item web-design image-hidden">
-                <img src="img/web%20design/web-design1.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
-            </div>
-
-            <div class="image-item web-design image-hidden">
-                <img src="img/web%20design/web-design2.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
-            </div>
-
-            <div class="image-item web-design image-hidden">
-                <img src="img/web%20design/web-design3.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
-            </div>
-
-            <div class="image-item web-design image-hidden">
-                <img src="img/web%20design/web-design4.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
-            </div>
-
-            <div class="image-item web-design image-hidden">
-                <img src="img/web%20design/web-design5.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
-            </div>
-
-            <div class="image-item web-design image-hidden">
-                <img src="img/web%20design/web-design6.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
-            </div>
-            
-            <div class="image-item web-design image-hidden">
-                <img src="img/web%20design/web-design7.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Graphic Design</span>   
-                </div>
-            </div>
-
-            <!--                 Landing Pages Images               -->
-
-            <div class="image-item landing-pages image-hidden">
-                <img src="img/landing%20page/landing-page1.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Landing Pages</span>   
-                </div>
-            </div>
-
-            <div class="image-item landing-pages image-hidden">
-                <img src="img/landing%20page/landing-page2.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Landing Pages</span>   
-                </div>
-            </div>
-
-            <div class="image-item landing-pages image-hidden">
-                <img src="img/landing%20page/landing-page3.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Landing Pages</span>   
-                </div>
-            </div>
-
-            <div class="image-item landing-pages image-hidden">
-                <img src="img/landing%20page/landing-page4.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Landing Pages</span>   
-                </div>
-            </div>
-
-            <div class="image-item landing-pages image-hidden">
-                <img src="img/landing%20page/landing-page5.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Landing Pages</span>   
-                </div>
-            </div>
-
-
-            <div class="image-item landing-pages image-hidden">
-                <img src="img/landing%20page/landing-page6.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Landing Pages</span>   
-                </div>
-            </div>
-
-            <div class="image-item landing-pages image-hidden">
-                <img src="img/landing%20page/landing-page7.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Landing Pages</span>   
-                </div>
-            </div>
-
-            <!--                  Wordpress Images              -->
-
-            <div class="image-item wordpress image-hidden">
-                <img src="img/wordpress/wordpress1.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Wordpress</span>   
-                </div>
-            </div>
-
-            <div class="image-item wordpress image-hidden">
-                <img src="img/wordpress/wordpress2.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Wordpress</span>   
-                </div>
-            </div>
-
-            <div class="image-item wordpress image-hidden">
-                <img src="img/wordpress/wordpress3.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Wordpress</span>   
-                </div>
-            </div>
-
-            <div class="image-item wordpress image-hidden">
-                <img src="img/wordpress/wordpress4.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Wordpress</span>   
-                </div>
-            </div>
-
-            <div class="image-item wordpress image-hidden">
-                <img src="img/wordpress/wordpress5.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Wordpress</span>   
-                </div>
-            </div>
-
-            <div class="image-item wordpress image-hidden">
-                <img src="img/wordpress/wordpress6.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Wordpress</span>   
-                </div>
-            </div>
-
-            <div class="image-item wordpress image-hidden">
-                <img src="img/wordpress/wordpress7.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Wordpress</span>   
-                </div>
-            </div>
-
-            <div class="image-item wordpress image-hidden">
-                <img src="img/wordpress/wordpress8.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Wordpress</span>   
-                </div>
-            </div>
-
-            <div class="image-item wordpress image-hidden">
-                <img src="img/wordpress/wordpress9.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Wordpress</span>   
-                </div>
-            </div>
-   
-            <div class="image-item wordpress image-hidden">
-                <img src="img/wordpress/wordpress10.jpg">
-                <div class="image-item-hover">
-                    <div class="image-item-icons">
-                        <i class="fas fa-link"></i>
-                    </div>
-                    <div class="image-item-icons">
-                        <i class="fas fa-search image-item-search"></i>
-                    </div>
-                    <p class="image-item-hover-text">Create Design</p>
-                    <span class="image-item-hover-name">Wordpress</span>   
-                </div>
-            </div>
-    </div>  
-
-
-    <div class="load-more-button">
-        <a href="#" class="load-more-link"><i class="fas fa-plus"></i>Load more</a>
-    </div>
-
-</section>
-
-<footer class="end">
-    <div class="copyright">
-        <p class="text">&copy Copyright 2020 <a href="#" class="footer-ham">theHam </a> &nbsp|&nbsp All Rights Reserved</p>
-    </div>
-</footer>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="js/Ham.js"></script>
-
-</body>
-
+    <!-- grid section  -->
+    <!-- <section class="grid-section">
+      <div class="container">
+        <div class="header-text">
+          <p class="header-title"></p>
+        </div>
+      </div>
+    </section> -->
+  </body>
 </html>
